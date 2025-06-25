@@ -1,0 +1,30 @@
+// // .vscode/launch.json
+// {
+//     "version": "0.2.0",
+//     "configurations": [
+//       {
+//         "type": "node",
+//         "request": "launch",
+//         "name": "Launch C141",
+//         // ここを修正
+//         "program": "${workspaceFolder}/スキルチェック/C/C141/main.js",
+//         "console": "integratedTerminal"
+//       }
+//     ]
+//   }
+  
+// .vscode/launch.json
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Launch Current JS File",
+        "type": "node",
+        "request": "launch",
+        // ${file} は「今エディタで開いているファイルのフルパス」
+        "program": "${file}",
+        "console": "integratedTerminal"
+      }
+    ]
+  }
+  
